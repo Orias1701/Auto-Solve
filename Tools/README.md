@@ -1,5 +1,5 @@
 const script = document.createElement('script');
-script.src = 'https://raw.githubusercontent.com/Orias1701/Auto-Solve/refs/heads/main/Tools/AutoSolve.js';
+script.src = 'https://raw.githubusercontent.com/Orias1701/Auto-Solve/main/Tools/AutoSolve.js';
 script.onload = () => {
   console.log('Script loaded successfully');
   autoSolve();
