@@ -1,12 +1,3 @@
-// ==UserScript==
-// @name         AutoSolve Script
-// @namespace    http://tampermonkey.net/
-// @version      1.0
-// @description  Auto solve exercises
-// @match        https://rootlearning.vn/homework.php?*
-// @grant        none
-// ==/UserScript==
-
 (function() {
   const currentUrl = window.location.href.split('&')[0];
   const storageKey = `dynamicAnswers_${currentUrl}`;
